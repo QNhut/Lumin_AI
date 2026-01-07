@@ -15,13 +15,13 @@ export default defineConfig({
     preprocessorOptions: {
       scss: {
         additionalData: `
-          @import "@/styles/tokens/theme.scss";
-          @import "@/styles/tokens/typographies.scss";
-          @import "@/styles/tokens/spacings.scss";
-          @import "@/styles/tokens/borderRadius.scss";
-          @import "@/styles/tokens/boxShadows.scss";
-          @import "@/styles/tokens/opacities.scss";
-          @import "@/styles/tokens/sizing.scss";
+          @use "@/styles/tokens/theme.scss" as *;
+          @use "@/styles/tokens/typographies.scss" as *;
+          @use "@/styles/tokens/spacings.scss" as *;
+          @use "@/styles/tokens/borderRadius.scss" as *;
+          @use "@/styles/tokens/boxShadows.scss" as *;
+          @use "@/styles/tokens/opacities.scss" as *;
+          @use "@/styles/tokens/sizing.scss" as *;
         `
       }
     }

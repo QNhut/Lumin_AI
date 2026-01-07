@@ -1,6 +1,7 @@
-import { useNavigate } from 'react-router-dom';
+import { SlArrowDown } from 'react-icons/sl';
+import { NavLink, useNavigate } from 'react-router-dom';
 
-import logo from './logo.png';
+import logo from '@/assets/images/logo-lumin.svg';
 
 import styles from './Header.module.scss';
 
