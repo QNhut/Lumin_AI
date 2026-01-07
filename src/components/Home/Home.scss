@@ -1,0 +1,66 @@
+@use "../../styles/container";
+@use "../../styles/variables" as v;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;500;700&display=swap');
+
+.home {
+  width: 100%;
+}
+
+.block {
+  height: 768px;
+  display: flex;
+  align-items: center;
+
+  &__one {
+    background: #2563eb;
+    color: white;
+  }
+
+  &__two {
+    background: white;
+  }
+
+  &__three {
+    background: #111827;
+    color: white;
+  }
+}
+
+.content {
+    &__one {
+        float: left;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        align-items: flex-start;
+        width: 1216px;
+        height: 374px;
+        font-family: 'DM Sans', sans-serif;
+
+        h1 {
+            font-size: 45px;
+            width: 400px;
+        }
+
+        .btn {
+        padding: 8px 35px;
+        border: none;
+        border-radius: 5px;
+        background: v.$primary;
+        color: white;
+    }
+    }
+}
+
+.image {
+    display: flex;
+    gap: 10px;
+
+    .img-icon {
+        height: 35px;
+        width: 35px;
+        border-radius: 10px;
+        border: 1px solid white;
+    }
+}
+
