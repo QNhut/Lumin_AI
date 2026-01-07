@@ -1,0 +1,362 @@
+@import "./tokens/typographies.scss";
+@import "./media-query.scss";
+
+@mixin kauri-typography-display-lg {
+  @include kauri-typography-mobile-display-lg;
+
+  @include media-query-up(md) {
+    @include kauri-typography-tablet-display-lg;
+  }
+
+  @include media-query-up(xl) {
+    @include kauri-typography-desktop-display-lg;
+  }
+}
+
+@mixin kauri-typography-display-md {
+  @include kauri-typography-mobile-display-md;
+
+  @include media-query-up(md) {
+    @include kauri-typography-tablet-display-md;
+  }
+
+  @include media-query-up(xl) {
+    @include kauri-typography-desktop-display-md;
+  }
+}
+
+@mixin kauri-typography-display-sm {
+  @include kauri-typography-mobile-display-sm;
+
+  @include media-query-up(md) {
+    @include kauri-typography-tablet-display-sm;
+  }
+
+  @include media-query-up(xl) {
+    @include kauri-typography-desktop-display-sm;
+  }
+}
+
+@mixin kauri-typography-headline-xl {
+  @include kauri-typography-mobile-headline-xl;
+
+  @include media-query-up(md) {
+    @include kauri-typography-tablet-headline-xl;
+  }
+
+  @include media-query-up(xl) {
+    @include kauri-typography-desktop-headline-xl;
+  }
+}
+
+@mixin kauri-typography-headline-lg {
+  @include kauri-typography-mobile-headline-lg;
+
+  @include media-query-up(md) {
+    @include kauri-typography-tablet-headline-lg;
+  }
+
+  @include media-query-up(xl) {
+    @include kauri-typography-desktop-headline-lg;
+  }
+}
+
+@mixin kauri-typography-headline-md {
+  @include kauri-typography-mobile-headline-md;
+
+  @include media-query-up(md) {
+    @include kauri-typography-tablet-headline-md;
+  }
+
+  @include media-query-up(xl) {
+    @include kauri-typography-desktop-headline-md;
+  }
+}
+
+@mixin kauri-typography-headline-sm {
+  @include kauri-typography-mobile-headline-sm;
+
+  @include media-query-up(md) {
+    @include kauri-typography-tablet-headline-sm;
+  }
+
+  @include media-query-up(xl) {
+    @include kauri-typography-desktop-headline-sm;
+  }
+}
+
+@mixin kauri-typography-headline-xs {
+  @include kauri-typography-mobile-headline-xs;
+
+  @include media-query-up(md) {
+    @include kauri-typography-tablet-headline-xs;
+  }
+
+  @include media-query-up(xl) {
+    @include kauri-typography-desktop-headline-xs;
+  }
+}
+
+@mixin kauri-typography-title-xl {
+  @include kauri-typography-mobile-title-xl;
+
+  @include media-query-up(md) {
+    @include kauri-typography-tablet-title-xl;
+  }
+
+  @include media-query-up(xl) {
+    @include kauri-typography-desktop-title-xl;
+  }
+}
+
+@mixin kauri-typography-title-lg {
+  @include kauri-typography-mobile-title-lg;
+
+  @include media-query-up(md) {
+    @include kauri-typography-tablet-title-lg;
+  }
+
+  @include media-query-up(xl) {
+    @include kauri-typography-desktop-title-lg;
+  }
+}
+
+@mixin kauri-typography-title-md {
+  @include kauri-typography-mobile-title-md;
+
+  @include media-query-up(md) {
+    @include kauri-typography-tablet-title-md;
+  }
+
+  @include media-query-up(xl) {
+    @include kauri-typography-desktop-title-md;
+  }
+}
+
+@mixin kauri-typography-title-sm {
+  @include kauri-typography-mobile-title-sm;
+
+  @include media-query-up(md) {
+    @include kauri-typography-tablet-title-sm;
+  }
+
+  @include media-query-up(xl) {
+    @include kauri-typography-desktop-title-sm;
+  }
+}
+
+@mixin kauri-typography-title-xs {
+  @include kauri-typography-mobile-title-xs;
+
+  @include media-query-up(md) {
+    @include kauri-typography-tablet-title-xs;
+  }
+
+  @include media-query-up(xl) {
+    @include kauri-typography-desktop-title-xs;
+  }
+}
+
+@mixin kauri-typography-body-regular-lg {
+  @include kauri-typography-mobile-body-regular-lg;
+
+  @include media-query-up(md) {
+    @include kauri-typography-tablet-body-regular-lg;
+  }
+
+  @include media-query-up(xl) {
+    @include kauri-typography-desktop-body-regular-lg;
+  }
+}
+
+@mixin kauri-typography-body-regular-md {
+  @include kauri-typography-mobile-body-regular-md;
+
+  @include media-query-up(md) {
+    @include kauri-typography-tablet-body-regular-md;
+  }
+
+  @include media-query-up(xl) {
+    @include kauri-typography-desktop-body-regular-md;
+  }
+}
+
+@mixin kauri-typography-body-regular-sm {
+  @include kauri-typography-mobile-body-regular-sm;
+
+  @include media-query-up(md) {
+    @include kauri-typography-tablet-body-regular-sm;
+  }
+
+  @include media-query-up(xl) {
+    @include kauri-typography-desktop-body-regular-sm;
+  }
+}
+
+@mixin kauri-typography-body-semibold-lg {
+  @include kauri-typography-mobile-body-semibold-lg;
+
+  @include media-query-up(md) {
+    @include kauri-typography-tablet-body-semibold-lg;
+  }
+
+  @include media-query-up(xl) {
+    @include kauri-typography-desktop-body-semibold-lg;
+  }
+}
+
+@mixin kauri-typography-body-semibold-md {
+  @include kauri-typography-mobile-body-semibold-md;
+
+  @include media-query-up(md) {
+    @include kauri-typography-tablet-body-semibold-md;
+  }
+
+  @include media-query-up(xl) {
+    @include kauri-typography-desktop-body-semibold-md;
+  }
+}
+
+@mixin kauri-typography-body-semibold-sm {
+  @include kauri-typography-mobile-body-semibold-sm;
+
+  @include media-query-up(md) {
+    @include kauri-typography-tablet-body-semibold-sm;
+  }
+
+  @include media-query-up(xl) {
+    @include kauri-typography-desktop-body-semibold-sm;
+  }
+}
+
+@mixin kauri-typography-label-xl {
+  @include kauri-typography-mobile-label-xl;
+
+  @include media-query-up(md) {
+    @include kauri-typography-tablet-label-xl;
+  }
+
+  @include media-query-up(xl) {
+    @include kauri-typography-desktop-label-xl;
+  }
+}
+
+@mixin kauri-typography-label-lg {
+  @include kauri-typography-mobile-label-lg;
+
+  @include media-query-up(md) {
+    @include kauri-typography-tablet-label-lg;
+  }
+
+  @include media-query-up(xl) {
+    @include kauri-typography-desktop-label-lg;
+  }
+}
+
+@mixin kauri-typography-label-md {
+  @include kauri-typography-mobile-label-md;
+
+  @include media-query-up(md) {
+    @include kauri-typography-tablet-label-md;
+  }
+
+  @include media-query-up(xl) {
+    @include kauri-typography-desktop-label-md;
+  }
+}
+
+@mixin kauri-typography-label-sm {
+  @include kauri-typography-mobile-label-sm;
+
+  @include media-query-up(md) {
+    @include kauri-typography-tablet-label-sm;
+  }
+
+  @include media-query-up(xl) {
+    @include kauri-typography-desktop-label-sm;
+  }
+}
+
+@mixin kauri-typography-label-xs {
+  @include kauri-typography-mobile-label-xs;
+
+  @include media-query-up(md) {
+    @include kauri-typography-tablet-label-xs;
+  }
+
+  @include media-query-up(xl) {
+    @include kauri-typography-desktop-label-xs;
+  }
+}
+
+@mixin kauri-typography-paragraph-regular-lg {
+  @include kauri-typography-mobile-paragraph-regular-lg;
+
+  @include media-query-up(md) {
+    @include kauri-typography-tablet-paragraph-regular-lg;
+  }
+
+  @include media-query-up(xl) {
+    @include kauri-typography-desktop-paragraph-regular-lg;
+  }
+}
+
+@mixin kauri-typography-paragraph-regular-md {
+  @include kauri-typography-mobile-paragraph-regular-md;
+
+  @include media-query-up(md) {
+    @include kauri-typography-tablet-paragraph-regular-md;
+  }
+
+  @include media-query-up(xl) {
+    @include kauri-typography-desktop-paragraph-regular-md;
+  }
+}
+
+@mixin kauri-typography-paragraph-regular-sm {
+  @include kauri-typography-mobile-paragraph-regular-sm;
+
+  @include media-query-up(md) {
+    @include kauri-typography-tablet-paragraph-regular-sm;
+  }
+
+  @include media-query-up(xl) {
+    @include kauri-typography-desktop-paragraph-regular-sm;
+  }
+}
+
+@mixin kauri-typography-paragraph-semibold-lg {
+  @include kauri-typography-mobile-paragraph-semibold-lg;
+
+  @include media-query-up(md) {
+    @include kauri-typography-tablet-paragraph-semibold-lg;
+  }
+
+  @include media-query-up(xl) {
+    @include kauri-typography-desktop-paragraph-semibold-lg;
+  }
+}
+
+@mixin kauri-typography-paragraph-semibold-md {
+  @include kauri-typography-mobile-paragraph-semibold-md;
+
+  @include media-query-up(md) {
+    @include kauri-typography-tablet-paragraph-semibold-md;
+  }
+
+  @include media-query-up(xl) {
+    @include kauri-typography-desktop-paragraph-semibold-md;
+  }
+}
+
+@mixin kauri-typography-paragraph-semibold-sm {
+  @include kauri-typography-mobile-paragraph-semibold-sm;
+
+  @include media-query-up(md) {
+    @include kauri-typography-tablet-paragraph-semibold-sm;
+  }
+
+  @include media-query-up(xl) {
+    @include kauri-typography-desktop-paragraph-semibold-sm;
+  }
+}

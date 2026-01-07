@@ -22,6 +22,7 @@ export default defineConfig({
           @use "@/styles/tokens/boxShadows.scss" as *;
           @use "@/styles/tokens/opacities.scss" as *;
           @use "@/styles/tokens/sizing.scss" as *;
+          @use "@/styles/kauri-typo.mixin.scss" as *;
         `
       }
     }

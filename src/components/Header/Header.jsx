@@ -9,37 +9,37 @@ export default function Header() {
   const navigator = useNavigate();
   return (
     <header className={styles.navbar}>
-      <div className={styles.navbar__left}>
-        <div className={styles.navbar__logo} onClick={() => navigator('/')}>
+      <div className={styles.left}>
+        <div className={styles.logo} onClick={() => navigator('/')}>
           <img src={logo} alt="Logo" />
         </div>
-        <nav className={styles.navbar__menu}>
-          <NavLink to="/products" className={styles.navbar__link}>
+        <nav className={styles.menu}>
+          <NavLink to="/products" className={styles.link}>
             Products
-            <SlArrowDown className="navbar__icon" />
+            <SlArrowDown className={styles.icon} />
           </NavLink>
-          <NavLink to="/capabilities" className={styles.navbar__link}>
+          <NavLink to="/capabilities" className={styles.link}>
             Capabilities
-            <SlArrowDown className="navbar__icon" />
+            <SlArrowDown className={styles.icon} />
           </NavLink>
-          <NavLink to="/solutions" className={styles.navbar__link}>
+          <NavLink to="/solutions" className={styles.link}>
             Solutions
-            <SlArrowDown className="navbar__icon" />
+            <SlArrowDown className={styles.icon} />
           </NavLink>
-          <NavLink to="/learn_Discover" className={styles.navbar__link}>
+          <NavLink to="/learn_Discover" className={styles.link}>
             Learn & Discover
-            <SlArrowDown className="navbar__icon" />
+            <SlArrowDown className={styles.icon} />
           </NavLink>
-          <NavLink to="/pricing" className={styles.navbar__link}>
+          <NavLink to="/pricing" className={styles.link}>
             Pricing
           </NavLink>
         </nav>
       </div>
-      <div className={styles.navbar__actions}>
-        <NavLink to="/request" className={styles.navbar__link}>
+      <div className={styles.actions}>
+        <NavLink to="/request" className={styles.requestDemo}>
           Request a demo
         </NavLink>
-        <h3>|</h3>
+        <span className={styles.separator}/>
         <button className={styles.btn}>Try for free</button>
       </div>
     </header>

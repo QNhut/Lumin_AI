@@ -4,6 +4,16 @@
   "useTabs": false,
   "semi": true,
   "bracketSameLine": false,
-  "singleQuote": true
+  "singleQuote": true,
+  "overrides": [
+    {
+      "files": ["*.scss", "*.sass", "*.css"],
+      "options": {
+        "tabWidth": 2,
+        "useTabs": false,
+        "singleQuote": false
+      }
+    }
+  ]
 }
 
