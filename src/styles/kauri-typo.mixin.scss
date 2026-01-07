@@ -1,5 +1,5 @@
-@import "./tokens/typographies.scss";
-@import "./media-query.scss";
+@use "./tokens/typographies.scss" as *;
+@use "./media-query.scss" as *;
 
 @mixin kauri-typography-display-lg {
   @include kauri-typography-mobile-display-lg;

@@ -1,6 +1,6 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import path from 'path'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import path from 'path';
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -22,9 +22,10 @@ export default defineConfig({
           @use "@/styles/tokens/boxShadows.scss" as *;
           @use "@/styles/tokens/opacities.scss" as *;
           @use "@/styles/tokens/sizing.scss" as *;
+          @use "@/styles/media-query.scss" as *;
           @use "@/styles/kauri-typo.mixin.scss" as *;
-        `
-      }
-    }
-  }
-})
+        `,
+      },
+    },
+  },
+});
