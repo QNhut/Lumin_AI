@@ -1,2 +1,5 @@
-@use "variables";
-@use "base"
+@import './reset.css';
+@import './fonts';
+@import './variables';
+@import './media-query';
+@import './tokens';

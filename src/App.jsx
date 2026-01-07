@@ -8,6 +8,7 @@ import Solutions from "./pages/Solutions"
 import Learn_Discover from "./pages/Learn_Discover"
 import Pricing from "./pages/Pricing"
 import Request from "./pages/Request"
+import TokenDemo from "./pages/TokenDemo"
 
 function App(){
     return (
@@ -21,6 +22,7 @@ function App(){
                 <Route path="/learn_Discover" element = {<Learn_Discover />} />
                 <Route path="/pricing" element = {<Pricing />} />
                 <Route path="/request" element = {<Request />} />
+                <Route path="/tokens" element = {<TokenDemo />} />
             </Routes>
         </BrowserRouter>
     )

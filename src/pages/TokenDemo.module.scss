@@ -1,0 +1,270 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: $kiwi-spacing-4;
+  background: $kiwi-colors-surface-background;
+  min-height: 100vh;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: $kiwi-spacing-8;
+  padding: $kiwi-spacing-6 0;
+  border-bottom: 1px solid $kiwi-colors-surface-outline;
+}
+
+.title {
+  @include kiwi-typography-display-lg;
+  color: $kiwi-colors-surface-on-surface;
+  margin-bottom: $kiwi-spacing-2;
+}
+
+.subtitle {
+  @include kiwi-typography-body-lg;
+  color: $kiwi-colors-surface-on-surface-low;
+  margin: 0;
+}
+
+.section {
+  margin-bottom: $kiwi-spacing-8;
+}
+
+.sectionTitle {
+  @include kiwi-typography-headline-xl;
+  color: $kiwi-colors-surface-on-surface;
+  margin-bottom: $kiwi-spacing-4;
+  padding-bottom: $kiwi-spacing-1;
+  border-bottom: 2px solid $kiwi-colors-core-primary;
+}
+
+// Colors Section
+.colorGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: $kiwi-spacing-4;
+}
+
+.colorGroup {
+  h3 {
+    @include kiwi-typography-title-lg;
+    color: $kiwi-colors-surface-on-surface;
+    margin-bottom: $kiwi-spacing-2;
+  }
+}
+
+.colorSwatch {
+  display: flex;
+  align-items: center;
+  gap: $kiwi-spacing-2;
+  margin-bottom: $kiwi-spacing-1;
+
+  span {
+    @include kiwi-typography-body-md;
+    color: $kiwi-colors-surface-on-surface;
+  }
+}
+
+.colorBox {
+  width: 40px;
+  height: 40px;
+  border-radius: $kiwi-border-radius-sm;
+  border: 1px solid $kiwi-colors-surface-outline;
+
+  &.primary { background: $kiwi-colors-core-primary; }
+  &.secondary { background: $kiwi-colors-core-secondary; }
+  &.tertiary { background: $kiwi-colors-core-tertiary; }
+  &.error { background: $kiwi-colors-semantic-error; }
+  &.warning { background: $kiwi-colors-semantic-warning; }
+  &.success { background: $kiwi-colors-semantic-success; }
+  &.info { background: $kiwi-colors-semantic-information; }
+  &.luminBrand { background: $kiwi-colors-custom-brand-lumin-lumin; }
+  &.signBrand { background: $kiwi-colors-custom-brand-sign-sign; }
+}
+
+// Typography Section
+.typographyGrid {
+  display: grid;
+  gap: $kiwi-spacing-3;
+}
+
+.typeExample {
+  padding: $kiwi-spacing-3;
+  background: $kiwi-colors-surface-surface;
+  border-radius: $kiwi-border-radius-md;
+  border: 1px solid $kiwi-colors-surface-outline;
+
+  code {
+    @include kiwi-typography-body-sm;
+    display: block;
+    margin-top: $kiwi-spacing-1;
+    color: $kiwi-colors-surface-on-surface-low;
+    background: $kiwi-colors-surface-surface-variant;
+    padding: $kiwi-spacing-0-5 $kiwi-spacing-1;
+    border-radius: $kiwi-border-radius-xs;
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  }
+}
+
+.displayLg { @include kiwi-typography-display-lg; color: $kiwi-colors-surface-on-surface; }
+.displayMd { @include kiwi-typography-display-md; color: $kiwi-colors-surface-on-surface; }
+.headlineXl { @include kiwi-typography-headline-xl; color: $kiwi-colors-surface-on-surface; }
+.headlineLg { @include kiwi-typography-headline-lg; color: $kiwi-colors-surface-on-surface; }
+.titleLg { @include kiwi-typography-title-lg; color: $kiwi-colors-surface-on-surface; }
+.bodyLg { @include kiwi-typography-body-lg; color: $kiwi-colors-surface-on-surface; }
+.bodyMd { @include kiwi-typography-body-md; color: $kiwi-colors-surface-on-surface; }
+.labelLg { @include kiwi-typography-label-lg; color: $kiwi-colors-surface-on-surface; }
+
+// Spacing Section
+.spacingGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: $kiwi-spacing-3;
+}
+
+.spacingExample {
+  text-align: center;
+
+  code {
+    @include kiwi-typography-body-sm;
+    display: block;
+    margin-top: $kiwi-spacing-1;
+    color: $kiwi-colors-surface-on-surface-low;
+  }
+}
+
+.spacingBox {
+  background: $kiwi-colors-core-primary;
+  color: $kiwi-colors-core-on-primary;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: var(--spacing);
+  min-height: 32px;
+  border-radius: $kiwi-border-radius-sm;
+  @include kiwi-typography-label-sm;
+  font-weight: 600;
+}
+
+// Border Radius Section
+.radiusGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: $kiwi-spacing-3;
+}
+
+.radiusExample {
+  text-align: center;
+
+  code {
+    @include kiwi-typography-body-sm;
+    display: block;
+    margin-top: $kiwi-spacing-1;
+    color: $kiwi-colors-surface-on-surface-low;
+  }
+}
+
+.radiusBox {
+  background: $kiwi-colors-core-secondary;
+  color: $kiwi-colors-core-on-secondary;
+  padding: $kiwi-spacing-2 $kiwi-spacing-3;
+  border-radius: var(--radius);
+  @include kiwi-typography-label-md;
+  font-weight: 600;
+  display: inline-block;
+}
+
+// Component Examples
+.componentGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: $kiwi-spacing-4;
+  align-items: start;
+}
+
+.primaryButton {
+  @include kiwi-typography-label-lg;
+  background: $kiwi-colors-core-primary;
+  color: $kiwi-colors-core-on-primary;
+  border: none;
+  padding: $kiwi-spacing-1-5 $kiwi-spacing-3;
+  border-radius: $kiwi-border-radius-md;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background: darken($kiwi-colors-core-primary, 5%);
+    transform: translateY(-1px);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+.secondaryButton {
+  @include kiwi-typography-label-lg;
+  background: transparent;
+  color: $kiwi-colors-core-primary;
+  border: 1px solid $kiwi-colors-core-primary;
+  padding: $kiwi-spacing-1-5 $kiwi-spacing-3;
+  border-radius: $kiwi-border-radius-md;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background: $kiwi-colors-core-primary;
+    color: $kiwi-colors-core-on-primary;
+  }
+}
+
+.tertiaryButton {
+  @include kiwi-typography-label-lg;
+  background: transparent;
+  color: $kiwi-colors-core-primary;
+  border: none;
+  padding: $kiwi-spacing-1-5 $kiwi-spacing-3;
+  border-radius: $kiwi-border-radius-md;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+
+  &:hover {
+    background: $kiwi-colors-core-primary-container;
+  }
+}
+
+.card {
+  background: $kiwi-colors-surface-surface;
+  border: 1px solid $kiwi-colors-surface-outline;
+  border-radius: $kiwi-border-radius-lg;
+  padding: $kiwi-spacing-4;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  h3 {
+    @include kiwi-typography-title-lg;
+    color: $kiwi-colors-surface-on-surface;
+    margin: 0 0 $kiwi-spacing-2 0;
+  }
+
+  p {
+    @include kiwi-typography-body-md;
+    color: $kiwi-colors-surface-on-surface-low;
+    margin: 0;
+    line-height: 1.5;
+  }
+}
+
+.alert {
+  background: $kiwi-colors-semantic-information-container;
+  color: $kiwi-colors-semantic-on-information-container;
+  border: 1px solid $kiwi-colors-semantic-information;
+  border-radius: $kiwi-border-radius-md;
+  padding: $kiwi-spacing-2 $kiwi-spacing-3;
+  @include kiwi-typography-body-md;
+
+  strong {
+    font-weight: 600;
+  }
+}
