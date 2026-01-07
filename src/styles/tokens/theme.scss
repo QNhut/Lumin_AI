@@ -1,0 +1,103 @@
+// Lumin AI Theme - Light Mode SCSS Variables
+
+// Core Colors
+$kiwi-colors-core-on-primary: #ffffff;
+$kiwi-colors-core-primary-container: #c4f0fd;
+$kiwi-colors-core-on-primary-container: #012832;
+$kiwi-colors-core-secondary: #1c333d;
+$kiwi-colors-core-on-secondary: #ffffff;
+$kiwi-colors-core-secondary-container: #cde6f2;
+$kiwi-colors-core-on-secondary-container: #051e27;
+$kiwi-colors-core-tertiary: #2c2d4f;
+$kiwi-colors-core-on-tertiary: #ffffff;
+$kiwi-colors-core-tertiary-container: #e1dfff;
+$kiwi-colors-core-on-tertiary-container: #171839;
+$kiwi-colors-core-primary: #035970;
+
+// Add-on Colors
+$kiwi-colors-add-on-primary-fixed: #c4f0fd;
+$kiwi-colors-add-on-on-primary-fixed: #012832;
+$kiwi-colors-add-on-primary-fixed-dim: #8edef4;
+$kiwi-colors-add-on-on-primary-fixed-variant: #087191;
+$kiwi-colors-add-on-secondary-fixed: #cde6f2;
+$kiwi-colors-add-on-on-secondary-fixed: #051e27;
+$kiwi-colors-add-on-secondary-fixed-dim: #cde6f2;
+$kiwi-colors-add-on-on-secondary-fixed-variant: #334a54;
+$kiwi-colors-add-on-tertiary-fixed: #d0ccff;
+$kiwi-colors-add-on-on-tertiary-fixed: #160f57;
+$kiwi-colors-add-on-tertiary-fixed-dim: #b8b2ff;
+$kiwi-colors-add-on-on-tertiary-fixed-variant: #4538cb;
+$kiwi-colors-add-on-shadow: #000000;
+$kiwi-colors-add-on-scrim: #000000;
+$kiwi-colors-add-on-background-fixed: #ffffff;
+
+// Semantic Colors
+$kiwi-colors-semantic-error: #bf0b00;
+$kiwi-colors-semantic-on-error: #ffffff;
+$kiwi-colors-semantic-error-container: #ffedea;
+$kiwi-colors-semantic-on-error-container: #400100;
+$kiwi-colors-semantic-information: #1f5abd;
+$kiwi-colors-semantic-on-information: #ffffff;
+$kiwi-colors-semantic-information-container: #e9f1fe;
+$kiwi-colors-semantic-on-information-container: #081a3b;
+$kiwi-colors-semantic-warning: #f7be00;
+$kiwi-colors-semantic-on-warning: #684f00;
+$kiwi-colors-semantic-warning-container: #ffefcf;
+$kiwi-colors-semantic-on-warning-container: #251a00;
+$kiwi-colors-semantic-success: #34863f;
+$kiwi-colors-semantic-on-success: #ffffff;
+$kiwi-colors-semantic-success-container: #f2fcee;
+$kiwi-colors-semantic-on-success-container: #0b200b;
+
+// Surface Colors
+$kiwi-colors-surface-outline: #a6abae;
+$kiwi-colors-surface-background: #ffffff;
+$kiwi-colors-surface-surface: #f8f9fb;
+$kiwi-colors-surface-on-surface: #191c1d;
+$kiwi-colors-surface-surface-variant: #dee3e6;
+$kiwi-colors-surface-on-surface-variant: #42474a;
+$kiwi-colors-surface-inverse-surface: #2e3132;
+$kiwi-colors-surface-inverse-on-surface: #ffffff;
+$kiwi-colors-surface-outline-variant: #d6dbde;
+$kiwi-colors-surface-surface-container-highest: #e1e2e4;
+$kiwi-colors-surface-surface-container-high: #e7e8ea;
+$kiwi-colors-surface-surface-container: #edeef0;
+$kiwi-colors-surface-surface-container-low: #f3f4f6;
+$kiwi-colors-surface-surface-container-lowest: #ffffff;
+$kiwi-colors-surface-surface-bright: #ffffff;
+$kiwi-colors-surface-surface-dim: #dcdddf;
+$kiwi-colors-surface-on-surface-low: #757779;
+$kiwi-colors-surface-on-surface-disabled: #a9abad;
+$kiwi-colors-surface-surface-container-disabled: #eff0f2;
+
+// Brand Colors - Lumin
+$kiwi-colors-custom-brand-lumin-lumin: #f2385a;
+$kiwi-colors-custom-brand-lumin-on-lumin: #ffffff;
+$kiwi-colors-custom-brand-lumin-lumin-container: #fcf0ee;
+$kiwi-colors-custom-brand-lumin-on-lumin-container: #40000d;
+$kiwi-colors-custom-brand-lumin-lumin-surface-container: #feacba;
+$kiwi-colors-custom-brand-lumin-lumin-surface-container-high: #40000d;
+$kiwi-colors-custom-brand-lumin-lumin-surface-container-low: #ffe0e5;
+$kiwi-colors-custom-brand-lumin-on-lumin-surface: #40000d;
+$kiwi-colors-custom-brand-lumin-inverse-on-lumin-surface: #fbece9;
+$kiwi-colors-custom-brand-lumin-lumin-fixed: #f2385a;
+$kiwi-colors-custom-brand-lumin-on-lumin-fixed: #ffffff;
+$kiwi-colors-custom-brand-lumin-lumin-container-fixed: #ffe0e5;
+$kiwi-colors-custom-brand-lumin-on-lumin-container-fixed: #40000d;
+$kiwi-colors-custom-brand-lumin-lumin-surface: #fff8f7;
+
+// Brand Colors - Sign
+$kiwi-colors-custom-brand-sign-sign: #786eff;
+$kiwi-colors-custom-brand-sign-on-sign: #ffffff;
+$kiwi-colors-custom-brand-sign-sign-container: #b8b2ff;
+$kiwi-colors-custom-brand-sign-on-sign-container: #160f57;
+$kiwi-colors-custom-brand-sign-sign-surface-container-low: #e3e0ff;
+$kiwi-colors-custom-brand-sign-on-sign-surface: #160f57;
+$kiwi-colors-custom-brand-sign-inverse-on-sign-surface: #e8e5ff;
+$kiwi-colors-custom-brand-sign-sign-surface-container-high: #160f57;
+$kiwi-colors-custom-brand-sign-sign-surface-container: #d0ccff;
+$kiwi-colors-custom-brand-sign-sign-surface: #f7f2ff;
+$kiwi-colors-custom-brand-sign-sign-fixed: #786eff;
+$kiwi-colors-custom-brand-sign-on-sign-fixed: #ffffff;
+$kiwi-colors-custom-brand-sign-sign-container-fixed: #e3e0ff;
+$kiwi-colors-custom-brand-sign-on-sign-container-fixed: #160f57;

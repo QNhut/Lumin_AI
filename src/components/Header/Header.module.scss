@@ -1,0 +1,113 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 $kiwi-spacing-4;
+  background-color: $kiwi-colors-core-on-primary;
+  height: 72px;
+  border-bottom: 1px solid $kiwi-colors-surface-outline-variant;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+  margin-right: 48px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  img {
+    aspect-ratio: 117 / 32;
+    min-height: 32px;
+    object-fit: contain;
+    width: auto;
+  }
+}
+
+.menu {
+  display: none;
+
+  @include media-query-up(xl) {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: $kiwi-colors-surface-on-surface;
+  transition: color 0.2s ease;
+  position: relative;
+
+  @include kauri-typography-body-regular-md;
+
+  &.active {
+    font-weight: 600;
+  }
+}
+
+.icon {
+  margin-left: 8px;
+  font-size: 10px;
+  transition: transform 0.2s ease;
+
+  .link:hover & {
+    transform: rotate(180deg);
+  }
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  padding: $kiwi-spacing-1 $kiwi-spacing-2;
+  border-radius: $kiwi-border-radius-md;
+  border: none;
+  cursor: pointer;
+  background-color: $kiwi-colors-core-secondary;
+  color: $kiwi-colors-core-on-primary;
+  min-height: 40px;
+  transition: all 0.2s ease;
+
+  @include kauri-typography-label-md;
+
+  &:hover {
+    transform: translateY(-1px);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+}
+
+.separator {
+  width: 1px;
+  height: 24px;
+  background-color: $kiwi-colors-surface-outline-variant;
+  margin: 0 16px;
+}
+
+.requestDemo {
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  color: $kiwi-colors-core-secondary;
+
+  @include kauri-typography-label-lg;
+}
