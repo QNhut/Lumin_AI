@@ -36,10 +36,10 @@ export default function Header() {
         </nav>
       </div>
       <div className={styles.actions}>
-        <NavLink to="/request" className={styles.requestDemo}>
-          Request a demo
+        <NavLink to="/token-demo" className={styles.requestDemo}>
+          Design Tokens
         </NavLink>
-        <span className={styles.separator}/>
+        <span className={styles.separator} />
         <button className={styles.btn}>Try for free</button>
       </div>
     </header>
