@@ -5,6 +5,8 @@ import logo from '@/assets/images/logo-lumin.svg';
 
 import styles from './Header.module.scss';
 
+// PLA PLA PLA
+
 export default function Header() {
   const navigator = useNavigate();
   return (
